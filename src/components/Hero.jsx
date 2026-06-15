@@ -1,5 +1,5 @@
 import React from 'react';
-
+import image from '../assets/Rediet Abreham_cv.pdf';
 export default function Hero() {
   return (
     <section
@@ -39,7 +39,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="/cv.pdf"
+              href={image}
               download
               className="px-6 py-3.5 border border-[#38BDF8]/30 text-[#38BDF8] font-bold text-sm tracking-wide rounded-lg hover:bg-[#38BDF8]/5 hover:border-[#38BDF8] transition-all duration-200"
             >

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-
+import image from '../assets/Rediet Abreham_cv.pdf';
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("about");
@@ -76,7 +76,7 @@ export default function Navbar() {
 
           {/* CV Button */}
           <a
-            href="/cv.pdf"
+            href={image}
             download
             className="hidden md:block px-4 py-2 text-sm font-semibold text-[#38BDF8] border border-[#38BDF8]/30 rounded-lg hover:bg-[#38BDF8] hover:text-[#0F172A] transition"
           >
@@ -114,7 +114,7 @@ export default function Navbar() {
 
             <div className="pt-3 px-3">
               <a
-                href="/cv.pdf"
+                href="/assets/Rediet Abreham_cv.pdf"
                 download
                 className="block text-center px-4 py-2 bg-[#38BDF8] text-[#0F172A] rounded-lg font-semibold"
               >
