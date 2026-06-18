@@ -22,7 +22,7 @@ const secondaryProjects = [
     title: "Event Management System",
     description: "A robust full-stack platform managing programmatic event registration workflows, dynamic scheduling constraints, and multi-tier attendee access tokens.",
     tags: ["React", "Node.js", "Express", "MongoDB"],
-    liveLink: "#",
+    liveLink: "https://event-management-system-ashy-seven.vercel.app/",
     githubLink: "https://github.com/redu-1995/Event_Management_System",
     image: eventSysImage // Integrated elegant conference/keynote hall presentation asset
   },
