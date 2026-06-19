@@ -1,11 +1,12 @@
 import React from 'react';
 import SectionTitle from './SectionTitle';
-
+import EventSysImage from '../assets/event.png';
+import beautyImage from '../assets/beauty.png';
+import learningAppImage from '../assets/learning.png';
+import fitnessTrackerImage from '../assets/fitness.png';
 // Dynamic, high-quality production preview images mapped to project aesthetics
 const cosmeticsImage = "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=1200&q=80";
-const eventSysImage = "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80";
-const learningAppImage = "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=800&q=80";
-const fitnessTrackerImage = "https://images.unsplash.com/photo-1510256572813-a04e7672837b?auto=format&fit=crop&w=800&q=80";
+
 
 const featuredProject = {
   title: "Cosmetics E-Commerce Platform",
@@ -13,7 +14,7 @@ const featuredProject = {
   tags: ["React", "Tailwind CSS"],
   liveLink: "https://yvbeauty.netlify.app/",
   githubLink: "https://github.com/redu-1995/beauty",
-  image: cosmeticsImage
+  image: beautyImage
 };
 
 const secondaryProjects = [
@@ -21,18 +22,18 @@ const secondaryProjects = [
     id: 1,
     title: "Event Management System",
     description: "A robust full-stack platform managing programmatic event registration workflows, dynamic scheduling constraints, and multi-tier attendee access tokens.",
-    tags: ["React", "Node.js", "Express", "MongoDB"],
+    tags: ["React", "Tailwind CSS", "Django", "PostgreSQL"],
     liveLink: "https://event-management-system-ashy-seven.vercel.app/",
     githubLink: "https://github.com/redu-1995/Event_Management_System",
-    image: eventSysImage // Integrated elegant conference/keynote hall presentation asset
+    image: EventSysImage 
   },
   {
     id: 2,
     title: "Offline Learning Application",
     description: "A standalone desktop educational portal optimized for low-bandwidth regions. Facilitates modular quizzes, progress markers, and local structural word arrays.",
     tags: ["React", "Tailwind CSS", "Local Node Storage"],
-    liveLink: "#",
-    githubLink: "#",
+    liveLink: "https://offline-learning-8l4p5y4jj-rediets-projects-15e9e9ed.vercel.app/",
+    githubLink: "https://github.com/redu-1995/offline-learning-app",
     image: learningAppImage // Integrated clean, focused educational/classroom layout asset
   },
   {
@@ -40,8 +41,8 @@ const secondaryProjects = [
     title: "Fitness Tracking Ecosystem",
     description: "A mobile-first health hub tracking metabolic output, target metrics, and custom workout progression trees.",
     tags: ["React Native", "Expo", "Context API"],
-    liveLink: "#",
-    githubLink: "#",
+    liveLink: "https://appetize.io/embed/b_x4vuy2yw7b3tv52jh24ggoxvwy",
+    githubLink: "https://github.com/redu-1995/ExpenseTracker",
     image: fitnessTrackerImage // Integrated premium smartwatch health sensor calibration asset
   }
 ];
@@ -122,11 +123,11 @@ export default function Projects() {
             className="group/card bg-[#1E293B]/40 border border-[#1E293B] hover:border-[#38BDF8]/20 rounded-xl overflow-hidden hover:-translate-y-1.5 transition-all duration-300 flex flex-col shadow-lg shadow-black/10"
           >
             {/* Project Image Header */}
-            <div className="h-52 bg-[#0F172A] relative overflow-hidden flex items-center justify-center text-[#64748B] border-b border-[#1E293B]">
+            <div className="h-70 bg-[#0F172A] relative overflow-hidden flex items-center justify-center text-[#64748B] border-b border-[#1E293B]">
               <img 
                 src={project.image} 
                 alt={project.title} 
-                className="w-full h-full object-cover object-center group-hover/card:scale-[1.04] transition-transform duration-700 ease-out" 
+                className="w-full h-full object-contain object-top bg-[#0F172A] group-hover/card:scale-[1.04] transition-transform duration-700 ease-out" 
               />
             </div>
 
