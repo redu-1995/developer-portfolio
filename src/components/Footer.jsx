@@ -40,8 +40,8 @@ export default function Footer() {
               <span className="text-[10px] font-mono text-[#64748B] uppercase tracking-wider block">// Connect</span>
               <ul className="space-y-2 text-sm font-medium text-[#94A3B8]">
                 <li><a href="https://github.com/redu-1995" target="_blank" rel="noreferrer" className="hover:text-[#38BDF8] transition-colors duration-200">GitHub</a></li>
-                <li><a href="https://linkedin.com/in/rediet" target="_blank" rel="noreferrer" className="hover:text-[#38BDF8] transition-colors duration-200">LinkedIn</a></li>
-                <li><a href="mailto:rediet@example.com" className="hover:text-[#38BDF8] transition-colors duration-200">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/rediet-abreham-8a8b49250/" target="_blank" rel="noreferrer" className="hover:text-[#38BDF8] transition-colors duration-200">LinkedIn</a></li>
+                <li><a href="mailto:nara1415karol@gmail.com" className="hover:text-[#38BDF8] transition-colors duration-200">Email</a></li>
               </ul>
             </div>
           </div>
