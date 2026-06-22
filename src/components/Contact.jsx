@@ -66,21 +66,21 @@ export default function Contact() {
               <div className="p-2.5 bg-[#0F172A]/60 border border-[#1E293B] group-hover:border-[#38BDF8]/30 rounded-xl text-lg transition-colors duration-200">📧</div>
               <div>
                 <span className="text-[10px] font-mono text-[#64748B] uppercase block tracking-wider">Direct Email</span>
-                <a href="mailto:rediet@example.com" className="text-[#F8FAFC] group-hover:text-[#38BDF8] transition-colors duration-200 font-medium text-sm">rediet@example.com</a>
+                <a href="mailto:nara1415karol@gmail.com" className="text-[#F8FAFC] group-hover:text-[#38BDF8] transition-colors duration-200 font-medium text-sm">nara1415karol@gmail.com</a>
               </div>
             </div>
             <div className="group flex items-start gap-4">
               <div className="p-2.5 bg-[#0F172A]/60 border border-[#1E293B] group-hover:border-[#38BDF8]/30 rounded-xl text-lg transition-colors duration-200">🔗</div>
               <div>
                 <span className="text-[10px] font-mono text-[#64748B] uppercase block tracking-wider">Professional Network</span>
-                <a href="https://linkedin.com/in/rediet" target="_blank" rel="noreferrer" className="text-[#F8FAFC] group-hover:text-[#38BDF8] transition-colors duration-200 font-medium text-sm">linkedin.com/in/rediet</a>
+                <a href="https://www.linkedin.com/in/rediet-abreham-8a8b49250/" target="_blank" rel="noreferrer" className="text-[#F8FAFC] group-hover:text-[#38BDF8] transition-colors duration-200 font-medium text-sm">linkedin.com/in/rediet-abreham-8a8b49250</a>
               </div>
             </div>
             <div className="group flex items-start gap-4">
               <div className="p-2.5 bg-[#0F172A]/60 border border-[#1E293B] group-hover:border-[#38BDF8]/30 rounded-xl text-lg transition-colors duration-200">💻</div>
               <div>
                 <span className="text-[10px] font-mono text-[#64748B] uppercase block tracking-wider">Code Repositories</span>
-                <a href="https://github.com/rediet" target="_blank" rel="noreferrer" className="text-[#F8FAFC] group-hover:text-[#38BDF8] transition-colors duration-200 font-medium text-sm">github.com/rediet</a>
+                <a href="https://github.com/redu-1995" target="_blank" rel="noreferrer" className="text-[#F8FAFC] group-hover:text-[#38BDF8] transition-colors duration-200 font-medium text-sm">github.com/redu-1995</a>
               </div>
             </div>
             <div className="flex items-start gap-4">
